@@ -10,7 +10,7 @@ openai.api_key = cred["api_key"]
 
 def generate_text(prompt):
     response = openai.Completion.create(
-        engine="text-davinci-002",
+        engine="davinci",
         prompt=prompt,
         max_tokens=1024,
         n=1,
@@ -22,8 +22,8 @@ def generate_text(prompt):
 
 # Example usage
 
-name = input("Please enter your name: ")
-print("Hello, " + name + "!")
+# name = input("Please enter your name: ")
+# print("Hello, " + name + "!")
 
 command = input("What would you like to ask ChatGPT3.5 ")
 
