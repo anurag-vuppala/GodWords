@@ -22,8 +22,8 @@ def generate_text(prompt):
 
 # Example usage
 
-# name = input("Please enter your name: ")
-# print("Hello, " + name + "!")
+name = input("Please enter your name: ")
+print("Hello, " + name + "!")
 
 command = input("What would you like to ask ChatGPT3.5 ")
 
